@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#noteification-container{
+    /* below 2 properties will position div at bottom of page */
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display: grid;
+}
+
+#noteification {
+    display: grid;
+    grid-gap: 10px;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    justify-self: center;
+    width: 250px;
+    padding: 15px 25px;
+
+    border-radius: 3px 3px 0 0;
+
+}
+
