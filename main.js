@@ -1,9 +1,9 @@
 window.addEventListener('online',() => {
-
+    callNotification('Online', 'Online','&check;')
 });
 
 window.addEventListener('offline',() => {
-    callNotification('offline', 'offline','&#x26A0')
+    callNotification('Offline', 'Offline','&#x26A0')
 });
 
 function callNotification(type, statusText, iconHtml){
