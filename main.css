@@ -24,3 +24,9 @@
 
 }
 
+.online{
+    background-color: aquamarine;
+}
+.offline{
+    background-color: crimson;
+}
